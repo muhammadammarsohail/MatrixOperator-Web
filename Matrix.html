@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label for="numOfMatrices">Number of Matrices:</label>
+    <input type="number" id="numOfMatrices" min="1" max="2">
+
+    <button onclick="go()">GO</button>
+
+    <div id="oneMatInputs" style="visibility: hidden;">
+
+        <label for="numOfMatrices">Number of Rows in First Matrix:</label>
+        <input type="number" id="numOfRows1" min="2" max="5"><br>
+
+        <label for="numOfMatrices">Number of Columns in First Matrix:</label>
+        <input type="number" id="numOfColumns1" min="1" max="2"><br>
+
+    </div>
+
+
+    <div id="twoMatInputs" style="visibility: hidden;">
+
+        <label for="numOfMatrices">Number of Rows in Second Matrix:</label>
+        <input type="number" id="numOfRows2" min="1" max="2"><br>
+
+        <label for="numOfMatrices">Number of Columns in Second Matrix:</label>
+        <input type="number" id="numOfColumns2" min="1" max="2"><br>
+
+    </div>
+    <label for="" id="error"></label>
+
+    <div id="elementInput">
+        
+
+    </div>
+    
+    <script src="./matrix.js">
+
+    </script>
+</body>
+
+</html>
